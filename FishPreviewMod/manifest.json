@@ -1,10 +1,10 @@
 {
   "Name": "Fish Preview",
-  "Author": "Seu Nome",
+  "Author": "Carlos Eduardo Blank",
   "Version": "1.0.0",
-  "Description": "Pré-visualiza o peixe no minigame",
-  "UniqueID": "SeuNome.FishPreview",
+  "Description": "Exibe uma pré-visualização em tempo real do peixe fisgado durante o minigame de pesca.",
+  "UniqueID": "CarlosBlank.FishPreview",
   "EntryDll": "FishPreviewMod.dll",
-  "MinimumApiVersion": "3.18.0",
+  "MinimumApiVersion": "4.0.0",
   "UpdateKeys": []
 }
