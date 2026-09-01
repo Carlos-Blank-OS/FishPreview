@@ -1,0 +1,10 @@
+{
+  "Name": "Fish Preview",
+  "Author": "Seu Nome",
+  "Version": "1.0.0",
+  "Description": "Pré-visualiza o peixe no minigame",
+  "UniqueID": "SeuNome.FishPreview",
+  "EntryDll": "FishPreviewMod.dll",
+  "MinimumApiVersion": "3.18.0",
+  "UpdateKeys": []
+}

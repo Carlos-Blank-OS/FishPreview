@@ -1,0 +1,9 @@
+/workspaces/Fish-previum-/FishPreviewMod/bin/Debug/net6.0/FishPreviewMod.deps.json
+/workspaces/Fish-previum-/FishPreviewMod/bin/Debug/net6.0/FishPreviewMod.dll
+/workspaces/Fish-previum-/FishPreviewMod/obj/Debug/net6.0/FishPreviewMod.csproj.AssemblyReference.cache
+/workspaces/Fish-previum-/FishPreviewMod/obj/Debug/net6.0/FishPreviewMod.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Fish-previum-/FishPreviewMod/obj/Debug/net6.0/FishPreviewMod.AssemblyInfoInputs.cache
+/workspaces/Fish-previum-/FishPreviewMod/obj/Debug/net6.0/FishPreviewMod.AssemblyInfo.cs
+/workspaces/Fish-previum-/FishPreviewMod/obj/Debug/net6.0/FishPreviewMod.csproj.CoreCompileInputs.cache
+/workspaces/Fish-previum-/FishPreviewMod/obj/Debug/net6.0/FishPreviewMod.sourcelink.json
+/workspaces/Fish-previum-/FishPreviewMod/obj/Debug/net6.0/FishPreviewMod.dll
