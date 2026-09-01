@@ -31,19 +31,15 @@ namespace FishPreviewMod
                     {
                         Item fishItem = ItemRegistry.Create("(O)" + fishId);
 
-                        // Quadrado bem grande e espaçoso (100x100)
-                        int boxSize = 100;
+                        // Tamanho padrão do quadro
+                        int boxSize = 90;
 
-                        var xField = Helper.Reflection.GetField<int>(bobberBar, "xPositionOnScreen", false);
-                        var yField = Helper.Reflection.GetField<int>(bobberBar, "yPositionOnScreen", false);
-                        
-                        int barX = xField != null ? xField.GetValue() : Game1.uiViewport.Width / 2 - 100;
-                        int barY = yField != null ? yField.GetValue() : Game1.uiViewport.Height / 2 - 150;
+                        // Ancoragem Imune ao Zoom do Mobile: Topo Central da Tela!
+                        // Assim, ele nunca se mistura com a barra de pesca nem é afetado pelo zoom.
+                        int boxX = (Game1.uiViewport.Width - boxSize) / 2;
+                        int boxY = 20; // 20 pixels de distância do teto da tela
 
-                        int boxX = barX - boxSize - 18;
-                        int boxY = barY + 30;
-
-                        // Desenha o quadrado grande estilo interface do jogo
+                        // Desenha o quadrado
                         IClickableMenu.drawTextureBox(
                             e.SpriteBatch,
                             Game1.menuTexture,
@@ -53,19 +49,20 @@ namespace FishPreviewMod
                             boxSize,
                             boxSize,
                             Color.White,
-                            1f,
+                            1f, 
                             true
                         );
 
-                        // Centraliza matematicamente o sprite do peixe no meio exato do quadrado com escala maior
-                        float scale = 1.25f;
-                        float drawnSize = 64f * scale;
+                        // Desenha o peixe centralizado dentro da caixa
+                        float fishScale = 1.25f;
+                        float drawnSize = 64f * fishScale;
+                        
                         Vector2 iconPos = new Vector2(
                             boxX + (boxSize - drawnSize) / 2f,
                             boxY + (boxSize - drawnSize) / 2f
                         );
 
-                        fishItem.drawInMenu(e.SpriteBatch, iconPos, scale);
+                        fishItem.drawInMenu(e.SpriteBatch, iconPos, fishScale);
                     }
                 }
                 catch (Exception ex)
