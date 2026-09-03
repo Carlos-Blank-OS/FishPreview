@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FishPreviewMod")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20a79e5cbb978a1746990f85cc638dfdae39efa9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f7209056314039578b0239b00144d4e4fb76995")]
 [assembly: System.Reflection.AssemblyProductAttribute("FishPreviewMod")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FishPreviewMod")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
